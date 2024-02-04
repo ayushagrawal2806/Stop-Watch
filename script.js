@@ -11,10 +11,11 @@ let second_Count = 0;
 let minute_count = 0;
 let hour_count = 0;
 let interval;
-let start_1 = true;
 let semicolon ;
 let millisecond;
-
+let start_1 = true;
+stop.disabled = true;
+reset.disabled = true;
 let startfunc = () => {
     
     if(start_1){
