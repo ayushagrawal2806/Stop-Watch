@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color: black;
+    
+}
+
+.display{
+    color: white;
+    display: flex;
+
+}
+
+.buttons{
+    color: white;
+    display: flex;
+    gap: 2rem;
+}
+
+h1{
+    color: white;
+    font-size: 10rem;
+}
+
+.head{
+    margin-bottom: 5rem;
+    /* border: 1px solid red; */
+    font-size: 8rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.start , .stop , .reset{
+    padding: 1rem 2rem;
+    border: 2px solid white;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
